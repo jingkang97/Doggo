@@ -54,7 +54,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="j2G-3h-LmJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="DoggoDex" id="OUk-SJ-oVU"/>
+                    <tabBarItem key="tabBarItem" title="DoggoDex" image="pokedex (1)" id="OUk-SJ-oVU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rft-4v-5Qq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,14 +67,34 @@
                     <view key="view" contentMode="scaleToFill" id="aZ8-bH-DEf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HJe-3N-rTA">
+                                <rect key="frame" x="0.0" y="39" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" image="camera.fill" catalog="system" id="ntm-tL-r9m" userLabel="Camera">
+                                        <connections>
+                                            <action selector="Camera:" destination="eSV-8v-wq0" id="CgY-or-Bbr"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hdK-cg-xiT"/>
+                                    <barButtonItem title="Item" image="photo.fill" catalog="system" id="nxV-vU-XNy" userLabel="PhotoLibrary">
+                                        <connections>
+                                            <action selector="PhotoLibrary:" destination="eSV-8v-wq0" id="1Cr-hq-2tc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="gwm-uf-zyN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Scanner" id="SCJ-Ez-Yfa"/>
+                    <tabBarItem key="tabBarItem" title="Scanner" image="camera" catalog="system" id="SCJ-Ez-Yfa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="usv-0V-hiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="eSV-8v-wq0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2494" y="-661"/>
+            <point key="canvasLocation" x="2492.753623188406" y="-661.60714285714278"/>
         </scene>
         <!--MainPage-->
         <scene sceneID="dwG-Hf-Bgu">
@@ -106,7 +126,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="vq2-ot-gNO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="GU6-QC-AoP"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="GU6-QC-AoP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o7h-83-HHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -115,5 +135,10 @@
     </scenes>
     <resources>
         <image name="DoggoLogo.png" width="6016" height="1820"/>
+        <image name="camera" catalog="system" width="64" height="48"/>
+        <image name="camera.fill" catalog="system" width="64" height="48"/>
+        <image name="person" catalog="system" width="64" height="60"/>
+        <image name="photo.fill" catalog="system" width="64" height="48"/>
+        <image name="pokedex (1)" width="16" height="16"/>
     </resources>
 </document>
