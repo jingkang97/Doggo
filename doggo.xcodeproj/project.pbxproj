@@ -55,6 +55,8 @@
 		7E3A3B34235250E5006E12B8 /* hiddengermansheppard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B1F235250E4006E12B8 /* hiddengermansheppard.png */; };
 		7E3A3B35235250E5006E12B8 /* dacshundhidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B20235250E4006E12B8 /* dacshundhidden.png */; };
 		7E3A3B36235250E5006E12B8 /* maltese.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B21235250E5006E12B8 /* maltese.png */; };
+		7E3A3B38235256DC006E12B8 /* 5365-innu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B37235256DB006E12B8 /* 5365-innu.json */; };
+		7E3A3B3A235256F9006E12B8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A3B39235256F9006E12B8 /* Profile.swift */; };
 		7EDD5D7D2351BF9500B4010A /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7C2351BF9500B4010A /* dog.json */; };
 		7EDD5D7F2351C42700B4010A /* DoggoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7E2351C42700B4010A /* DoggoLogo.png */; };
 		7EDD5D812351C43E00B4010A /* 4888-dog-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */; };
@@ -141,6 +143,8 @@
 		7E3A3B1F235250E4006E12B8 /* hiddengermansheppard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddengermansheppard.png; sourceTree = "<group>"; };
 		7E3A3B20235250E4006E12B8 /* dacshundhidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dacshundhidden.png; sourceTree = "<group>"; };
 		7E3A3B21235250E5006E12B8 /* maltese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maltese.png; sourceTree = "<group>"; };
+		7E3A3B37235256DB006E12B8 /* 5365-innu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5365-innu.json"; sourceTree = "<group>"; };
+		7E3A3B39235256F9006E12B8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7EDD5D7C2351BF9500B4010A /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		7EDD5D7E2351C42700B4010A /* DoggoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoggoLogo.png; sourceTree = "<group>"; };
 		7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4888-dog-icon.json"; sourceTree = "<group>"; };
@@ -236,12 +240,14 @@
 				7EDD5D822351C77100B4010A /* MobileNetV2.mlmodel */,
 				7E3A3AC92351F78C006E12B8 /* 8414-lottie-doggie (1).json */,
 				7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */,
+				7E3A3B37235256DB006E12B8 /* 5365-innu.json */,
 				7EDD5D7C2351BF9500B4010A /* dog.json */,
 				7EEAFBD32351BCE3005F31E5 /* AppDelegate.swift */,
 				7EEAFBD52351BCE3005F31E5 /* SceneDelegate.swift */,
 				7EEAFBD72351BCE3005F31E5 /* ViewController.swift */,
 				7EEAFBD92351BCE3005F31E5 /* Main.storyboard */,
 				7E3A3B0923523DBA006E12B8 /* DoggoDex.swift */,
+				7E3A3B39235256F9006E12B8 /* Profile.swift */,
 				7E2303F62351D936006FE42B /* Scanner.swift */,
 				7EEAFBDF2351BCE3005F31E5 /* Assets.xcassets */,
 				7E3A3B18235250E3006E12B8 /* corgihidden.png */,
@@ -265,7 +271,6 @@
 				7E3A3B21235250E5006E12B8 /* maltese.png */,
 				7E3A3B1C235250E4006E12B8 /* maltesehidden.png */,
 				7E3A3B1D235250E4006E12B8 /* pomeranian.png */,
-				7E3A3B0B2352487C006E12B8 /* Hiddenpug.png */,
 				7E3A3AF723523C80006E12B8 /* boxer.png */,
 				7E3A3AF423523C7F006E12B8 /* chihuahua.png */,
 				7E3A3AF323523C7F006E12B8 /* chowchow.png */,
@@ -283,6 +288,7 @@
 				7E3A3AEC23523C7E006E12B8 /* shitzhu.png */,
 				7E3A3AE923522F01006E12B8 /* malteseavatar.png */,
 				7E3A3AE723522EFC006E12B8 /* beaglevatar.png */,
+				7E3A3B0B2352487C006E12B8 /* Hiddenpug.png */,
 				7E3A3AE523522EF7006E12B8 /* frenchieavatar.png */,
 				7E3A3AE323522EEF006E12B8 /* germanshepardavatar.png */,
 				7E3A3ADF23522EE6006E12B8 /* huskyavatar.png */,
@@ -467,6 +473,7 @@
 				7EEAFBDB2351BCE3005F31E5 /* Main.storyboard in Resources */,
 				7E3A3AE023522EE6006E12B8 /* huskyavatar.png in Resources */,
 				7E3A3AFD23523C80006E12B8 /* pekingese.png in Resources */,
+				7E3A3B38235256DC006E12B8 /* 5365-innu.json in Resources */,
 				7EDD5D7D2351BF9500B4010A /* dog.json in Resources */,
 				7E3A3AFF23523C80006E12B8 /* shibainu.png in Resources */,
 				7E3A3B0123523C80006E12B8 /* poodle.png in Resources */,
@@ -544,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EEAFBD82351BCE3005F31E5 /* ViewController.swift in Sources */,
+				7E3A3B3A235256F9006E12B8 /* Profile.swift in Sources */,
 				7EEAFBD42351BCE3005F31E5 /* AppDelegate.swift in Sources */,
 				7EEAFBDE2351BCE3005F31E5 /* doggo.xcdatamodeld in Sources */,
 				7E3A3B0A23523DBA006E12B8 /* DoggoDex.swift in Sources */,
