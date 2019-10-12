@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var animationView: AnimationView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        startAnimation()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "MainPage")
+            self.show(secondViewController!, sender: nil)
+        }
     }
-
+    
+   func startAnimation() {
+        let animation = Animation.named("4888-dog-icon")
+        animationView.animation = animation
+        animationView.loopMode = .repeat(3)
+        animationView.play()
+    }
 
 }
 

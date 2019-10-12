@@ -1,24 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--SplashScreen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SplashScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="doggo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LgN-I9-CqJ" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="DnW-5P-4aw"/>
+                                    <constraint firstAttribute="width" constant="300" id="ein-YQ-LH8"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DoggoLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXd-kA-6ME">
+                                <rect key="frame" x="87" y="615" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LgN-I9-CqJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2ax-Cz-LAu"/>
+                            <constraint firstItem="LgN-I9-CqJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OhY-ru-KCX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="animationView" destination="LgN-I9-CqJ" id="3G7-vE-MEe"/>
+                        <segue destination="sTn-5U-Bjc" kind="push" id="Pdc-Lz-Z6Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="49" y="86"/>
+        </scene>
+        <!--DoggoDex-->
+        <scene sceneID="UaQ-Ge-FZg">
+            <objects>
+                <viewController id="GCc-qd-Pih" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="znu-2P-xOs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="j2G-3h-LmJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="DoggoDex" id="OUk-SJ-oVU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rft-4v-5Qq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2843" y="743"/>
+        </scene>
+        <!--Scanner-->
+        <scene sceneID="vi8-o8-fJH">
+            <objects>
+                <viewController id="XMJ-ch-gZP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aZ8-bH-DEf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gwm-uf-zyN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scanner" id="SCJ-Ez-Yfa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="usv-0V-hiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2494" y="-661"/>
+        </scene>
+        <!--MainPage-->
+        <scene sceneID="dwG-Hf-Bgu">
+            <objects>
+                <tabBarController storyboardIdentifier="MainPage" title="MainPage" id="sTn-5U-Bjc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fPd-kt-6Sh"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YG6-OE-1ST">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XMJ-ch-gZP" kind="relationship" relationship="viewControllers" id="io0-sX-x7s"/>
+                        <segue destination="GCc-qd-Pih" kind="relationship" relationship="viewControllers" id="h9G-So-y55"/>
+                        <segue destination="zTK-S9-L0f" kind="relationship" relationship="viewControllers" id="MlT-vv-fcr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1w-Do-ofn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="63"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="ve1-IB-InU">
+            <objects>
+                <viewController id="zTK-S9-L0f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e2L-zk-Yrs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="vq2-ot-gNO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" id="GU6-QC-AoP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o7h-83-HHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1587" y="886"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DoggoLogo.png" width="6016" height="1820"/>
+    </resources>
 </document>
