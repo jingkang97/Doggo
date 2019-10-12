@@ -10,7 +10,7 @@
         <!--SplashScreen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="SplashScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="doggo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SplashScreen" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="doggo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,23 +54,30 @@
         <!--DoggoDex-->
         <scene sceneID="UaQ-Ge-FZg">
             <objects>
-                <viewController id="GCc-qd-Pih" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="GCc-qd-Pih" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="znu-2P-xOs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yL0-r6-vxr">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twE-xh-zak">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="0dc-Mq-yaR"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="XVI-zh-TcD"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ih-p4-hLo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="7R9-3N-pnl"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Sbc-IO-ylu"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="yL0-r6-vxr" firstAttribute="leading" secondItem="j2G-3h-LmJ" secondAttribute="leading" id="1mW-MJ-JTH"/>
-                            <constraint firstItem="yL0-r6-vxr" firstAttribute="trailing" secondItem="j2G-3h-LmJ" secondAttribute="trailing" id="FHS-ca-WWA"/>
-                            <constraint firstItem="yL0-r6-vxr" firstAttribute="top" secondItem="j2G-3h-LmJ" secondAttribute="top" id="MO1-Jb-Fvo"/>
-                            <constraint firstItem="yL0-r6-vxr" firstAttribute="bottom" secondItem="j2G-3h-LmJ" secondAttribute="bottom" id="rig-7d-dvk"/>
+                            <constraint firstItem="j2G-3h-LmJ" firstAttribute="bottom" secondItem="twE-xh-zak" secondAttribute="bottom" id="ArL-AY-wVq"/>
+                            <constraint firstItem="j2G-3h-LmJ" firstAttribute="trailing" secondItem="twE-xh-zak" secondAttribute="trailing" id="Kby-f9-A8o"/>
+                            <constraint firstItem="twE-xh-zak" firstAttribute="top" secondItem="j2G-3h-LmJ" secondAttribute="top" id="Zmm-ZE-36q"/>
+                            <constraint firstItem="twE-xh-zak" firstAttribute="leading" secondItem="j2G-3h-LmJ" secondAttribute="leading" id="f6C-X2-jvK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j2G-3h-LmJ"/>
                     </view>
@@ -83,23 +90,42 @@
         <!--Scanner-->
         <scene sceneID="vi8-o8-fJH">
             <objects>
-                <viewController id="XMJ-ch-gZP" customClass="Scanner" customModule="doggo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aZ8-bH-DEf">
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="XMJ-ch-gZP" customClass="Scanner" customModule="doggo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aZ8-bH-DEf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVY-6C-5Aa">
+                                <rect key="frame" x="55" y="480" width="304" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="9lC-8H-6ov"/>
+                                    <constraint firstAttribute="width" constant="304" id="tFJ-Wa-AKl"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tap camera or photo library icon to start!">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZuW-ar-3rz" customClass="AnimationView" customModule="Lottie">
-                                <rect key="frame" x="87" y="194" width="240" height="200"/>
+                                <rect key="frame" x="87" y="230" width="240" height="200"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="EI2-tm-hRa"/>
                                     <constraint firstAttribute="height" constant="200" id="ixq-yD-Pd6"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YmN-fB-mXq">
+                                <rect key="frame" x="0.0" y="80" width="414" height="609"/>
+                            </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJe-3N-rTA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="aNQ-z1-UmT"/>
+                                    <constraint firstAttribute="height" constant="80" id="aNQ-z1-UmT"/>
                                 </constraints>
                                 <items>
                                     <barButtonItem title="Item" image="camera.fill" catalog="system" id="ntm-tL-r9m" userLabel="Camera">
@@ -115,37 +141,18 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YmN-fB-mXq">
-                                <rect key="frame" x="0.0" y="44" width="414" height="645"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVY-6C-5Aa">
-                                <rect key="frame" x="55" y="444" width="304" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="9lC-8H-6ov"/>
-                                    <constraint firstAttribute="width" constant="304" id="tFJ-Wa-AKl"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Tap camera or photo library icon to start!">
-                                        <attributes>
-                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="YmN-fB-mXq" firstAttribute="top" secondItem="HJe-3N-rTA" secondAttribute="top" constant="80" id="DRE-Ao-vgJ"/>
                             <constraint firstItem="HJe-3N-rTA" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" id="Duc-nh-JZo"/>
                             <constraint firstItem="BVY-6C-5Aa" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" constant="55" id="GqK-Ls-1dL"/>
                             <constraint firstItem="BVY-6C-5Aa" firstAttribute="top" secondItem="ZuW-ar-3rz" secondAttribute="bottom" constant="50" id="HrD-Pz-9dq"/>
-                            <constraint firstItem="YmN-fB-mXq" firstAttribute="top" secondItem="HJe-3N-rTA" secondAttribute="bottom" id="Zvu-lf-LIs"/>
                             <constraint firstItem="ZuW-ar-3rz" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" constant="87" id="cKq-HJ-XoN"/>
                             <constraint firstItem="YmN-fB-mXq" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" id="cbq-Pr-APP"/>
+                            <constraint firstItem="HJe-3N-rTA" firstAttribute="top" secondItem="aZ8-bH-DEf" secondAttribute="top" id="ee1-3J-geo"/>
                             <constraint firstItem="HJe-3N-rTA" firstAttribute="trailing" secondItem="gwm-uf-zyN" secondAttribute="trailing" id="kE0-wV-W6l"/>
                             <constraint firstItem="ZuW-ar-3rz" firstAttribute="top" secondItem="HJe-3N-rTA" secondAttribute="bottom" constant="150" id="lCm-n6-V3M"/>
-                            <constraint firstItem="HJe-3N-rTA" firstAttribute="top" secondItem="gwm-uf-zyN" secondAttribute="top" id="nVw-nJ-RCS"/>
                             <constraint firstItem="gwm-uf-zyN" firstAttribute="trailing" secondItem="BVY-6C-5Aa" secondAttribute="trailing" constant="55" id="r6O-H6-ce8"/>
                             <constraint firstItem="gwm-uf-zyN" firstAttribute="trailing" secondItem="YmN-fB-mXq" secondAttribute="trailing" id="rtI-tz-mQx"/>
                             <constraint firstItem="gwm-uf-zyN" firstAttribute="bottom" secondItem="YmN-fB-mXq" secondAttribute="bottom" constant="70" id="xoO-cP-Ids"/>
@@ -167,7 +174,7 @@
         <!--MainPage-->
         <scene sceneID="dwG-Hf-Bgu">
             <objects>
-                <tabBarController storyboardIdentifier="MainPage" title="MainPage" id="sTn-5U-Bjc" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainPage" title="MainPage" wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="sTn-5U-Bjc" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="fPd-kt-6Sh"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YG6-OE-1ST">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -187,7 +194,7 @@
         <!--Profile-->
         <scene sceneID="ve1-IB-InU">
             <objects>
-                <viewController id="zTK-S9-L0f" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="zTK-S9-L0f" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e2L-zk-Yrs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
