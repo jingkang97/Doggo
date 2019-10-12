@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2303F72351D936006FE42B /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2303F62351D936006FE42B /* Scanner.swift */; };
 		7EDD5D7D2351BF9500B4010A /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7C2351BF9500B4010A /* dog.json */; };
 		7EDD5D7F2351C42700B4010A /* DoggoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7E2351C42700B4010A /* DoggoLogo.png */; };
 		7EDD5D812351C43E00B4010A /* 4888-dog-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		049E9FE394BF5CDDEDDF2283 /* Pods_doggo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doggo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D004112634C2107A8AFDFD /* Pods-doggo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggo.debug.xcconfig"; path = "Target Support Files/Pods-doggo/Pods-doggo.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2303F62351D936006FE42B /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 		7EDD5D7C2351BF9500B4010A /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		7EDD5D7E2351C42700B4010A /* DoggoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoggoLogo.png; sourceTree = "<group>"; };
 		7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4888-dog-icon.json"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				7EEAFBD52351BCE3005F31E5 /* SceneDelegate.swift */,
 				7EEAFBD72351BCE3005F31E5 /* ViewController.swift */,
 				7EEAFBD92351BCE3005F31E5 /* Main.storyboard */,
+				7E2303F62351D936006FE42B /* Scanner.swift */,
 				7EEAFBDF2351BCE3005F31E5 /* Assets.xcassets */,
 				7EDD5D902351D55500B4010A /* pokedex (1).png */,
 				7EDD5D862351D15200B4010A /* pokedex.png */,
@@ -357,6 +360,7 @@
 				7EEAFBD42351BCE3005F31E5 /* AppDelegate.swift in Sources */,
 				7EEAFBDE2351BCE3005F31E5 /* doggo.xcdatamodeld in Sources */,
 				7EDD5D832351C77100B4010A /* MobileNetV2.mlmodel in Sources */,
+				7E2303F72351D936006FE42B /* Scanner.swift in Sources */,
 				7EEAFBD62351BCE3005F31E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

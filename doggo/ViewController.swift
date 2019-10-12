@@ -12,11 +12,7 @@ import Lottie
 class ViewController: UIViewController {
 
     let model = MobileNetV2()
-    @IBAction func Camera(_ sender: UIBarButtonItem) {
-    }
     
-    @IBAction func PhotoLibrary(_ sender: UIBarButtonItem) {
-    }
     @IBOutlet var animationView: AnimationView!
     override func viewDidLoad() {
         super.viewDidLoad()
