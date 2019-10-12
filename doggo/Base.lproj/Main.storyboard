@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LgN-I9-CqJ" customClass="AnimationView" customModule="Lottie">
-                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <rect key="frame" x="57" y="100" width="300" height="300"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="DnW-5P-4aw"/>
@@ -24,7 +24,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DoggoLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXd-kA-6ME">
-                                <rect key="frame" x="87" y="544" width="240" height="128"/>
+                                <rect key="frame" x="87" y="444" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="N9U-v7-T8g"/>
                                     <constraint firstAttribute="height" constant="128" id="hfP-BX-3Es"/>
@@ -36,8 +36,9 @@
                             <constraint firstItem="LgN-I9-CqJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2ax-Cz-LAu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CXd-kA-6ME" secondAttribute="trailing" constant="87" id="D86-8H-uLI"/>
                             <constraint firstItem="CXd-kA-6ME" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="LlT-ZW-n5O"/>
+                            <constraint firstItem="LgN-I9-CqJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="MEi-1d-a8O"/>
                             <constraint firstItem="LgN-I9-CqJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OhY-ru-KCX"/>
-                            <constraint firstItem="CXd-kA-6ME" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="500" id="pZC-IE-7PJ"/>
+                            <constraint firstItem="CXd-kA-6ME" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="400" id="pZC-IE-7PJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -57,14 +58,27 @@
                     <view key="view" contentMode="scaleToFill" id="znu-2P-xOs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yL0-r6-vxr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="0dc-Mq-yaR"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="XVI-zh-TcD"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yL0-r6-vxr" firstAttribute="leading" secondItem="j2G-3h-LmJ" secondAttribute="leading" id="1mW-MJ-JTH"/>
+                            <constraint firstItem="yL0-r6-vxr" firstAttribute="trailing" secondItem="j2G-3h-LmJ" secondAttribute="trailing" id="FHS-ca-WWA"/>
+                            <constraint firstItem="yL0-r6-vxr" firstAttribute="top" secondItem="j2G-3h-LmJ" secondAttribute="top" id="MO1-Jb-Fvo"/>
+                            <constraint firstItem="yL0-r6-vxr" firstAttribute="bottom" secondItem="j2G-3h-LmJ" secondAttribute="bottom" id="rig-7d-dvk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="j2G-3h-LmJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="DoggoDex" image="pokedex (1)" id="OUk-SJ-oVU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rft-4v-5Qq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2843" y="743"/>
+            <point key="canvasLocation" x="2842.0289855072465" y="742.63392857142856"/>
         </scene>
         <!--Scanner-->
         <scene sceneID="vi8-o8-fJH">
@@ -74,6 +88,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZuW-ar-3rz" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="87" y="194" width="240" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="EI2-tm-hRa"/>
+                                    <constraint firstAttribute="height" constant="200" id="ixq-yD-Pd6"/>
+                                </constraints>
+                            </view>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJe-3N-rTA">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <constraints>
@@ -93,22 +115,48 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YmN-fB-mXq">
-                                <rect key="frame" x="87" y="357" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YmN-fB-mXq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="645"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVY-6C-5Aa">
+                                <rect key="frame" x="55" y="444" width="304" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="9lC-8H-6ov"/>
+                                    <constraint firstAttribute="width" constant="304" id="tFJ-Wa-AKl"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tap camera or photo library icon to start!">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="HJe-3N-rTA" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" id="Duc-nh-JZo"/>
+                            <constraint firstItem="BVY-6C-5Aa" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" constant="55" id="GqK-Ls-1dL"/>
+                            <constraint firstItem="BVY-6C-5Aa" firstAttribute="top" secondItem="ZuW-ar-3rz" secondAttribute="bottom" constant="50" id="HrD-Pz-9dq"/>
+                            <constraint firstItem="YmN-fB-mXq" firstAttribute="top" secondItem="HJe-3N-rTA" secondAttribute="bottom" id="Zvu-lf-LIs"/>
+                            <constraint firstItem="ZuW-ar-3rz" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" constant="87" id="cKq-HJ-XoN"/>
+                            <constraint firstItem="YmN-fB-mXq" firstAttribute="leading" secondItem="gwm-uf-zyN" secondAttribute="leading" id="cbq-Pr-APP"/>
                             <constraint firstItem="HJe-3N-rTA" firstAttribute="trailing" secondItem="gwm-uf-zyN" secondAttribute="trailing" id="kE0-wV-W6l"/>
+                            <constraint firstItem="ZuW-ar-3rz" firstAttribute="top" secondItem="HJe-3N-rTA" secondAttribute="bottom" constant="150" id="lCm-n6-V3M"/>
                             <constraint firstItem="HJe-3N-rTA" firstAttribute="top" secondItem="gwm-uf-zyN" secondAttribute="top" id="nVw-nJ-RCS"/>
+                            <constraint firstItem="gwm-uf-zyN" firstAttribute="trailing" secondItem="BVY-6C-5Aa" secondAttribute="trailing" constant="55" id="r6O-H6-ce8"/>
+                            <constraint firstItem="gwm-uf-zyN" firstAttribute="trailing" secondItem="YmN-fB-mXq" secondAttribute="trailing" id="rtI-tz-mQx"/>
+                            <constraint firstItem="gwm-uf-zyN" firstAttribute="bottom" secondItem="YmN-fB-mXq" secondAttribute="bottom" constant="70" id="xoO-cP-Ids"/>
+                            <constraint firstItem="gwm-uf-zyN" firstAttribute="trailing" secondItem="ZuW-ar-3rz" secondAttribute="trailing" constant="87" id="zEu-UC-17H"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gwm-uf-zyN"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Scanner" image="camera" catalog="system" id="SCJ-Ez-Yfa"/>
                     <connections>
                         <outlet property="PhotoLibrary" destination="nxV-vU-XNy" id="Kz4-Y3-2Ee"/>
+                        <outlet property="animationView" destination="ZuW-ar-3rz" id="KBP-NU-uP9"/>
                         <outlet property="imageView" destination="YmN-fB-mXq" id="VUw-53-Cxo"/>
                     </connections>
                 </viewController>

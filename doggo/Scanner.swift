@@ -7,9 +7,16 @@
 //
 
 import UIKit
-
+import Lottie
 class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
+    @IBOutlet var animationView: AnimationView!
+    func startAnimation() {
+        let animation = Animation.named("8414-lottie-doggie (1)")
+        animationView.animation = animation
+        animationView.loopMode = .loop
+        animationView.play()
+    }
     
     let imagePicker = UIImagePickerController()
     
@@ -19,6 +26,7 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     @IBOutlet var PhotoLibrary: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+        startAnimation()
         imagePicker.delegate = self
     }
     @IBAction func photoLibraryTapped(_ sender: UIBarButtonItem) {
