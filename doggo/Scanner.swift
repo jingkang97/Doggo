@@ -8,6 +8,9 @@
 
 import UIKit
 import Lottie
+import CoreML
+import Vision
+
 class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     static var pugLock : Bool = true
@@ -32,13 +35,18 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     static var parsonLock : Bool = true
     static var dalmatianLock : Bool = true
     
+    let model = MobileNetV2()
+    
+    @IBOutlet weak var Breed: UILabel!
+    
+    
     @IBOutlet var animationView: AnimationView!
     func startAnimation() {
         let animation = Animation.named("8414-lottie-doggie (1)")
         animationView.animation = animation
         animationView.loopMode = .loop
         animationView.play()
-    
+        
     }
     
     let imagePicker = UIImagePickerController()
@@ -51,6 +59,8 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
         super.viewDidLoad()
         startAnimation()
         imagePicker.delegate = self
+        Breed.text = ""
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -69,10 +79,37 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            imageView.image = image
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            imageView.image = pickedImage
+            guard let ciimage = CIImage(image: pickedImage) else {
+                fatalError("Error creating CIImage")
+            }
+            scanImage(image: ciimage)
         }
         dismiss(animated: true, completion: nil)
+    }
+    
+    func scanImage(image: CIImage) {
+        guard let model = try? VNCoreMLModel(for: MobileNetV2().model) else {
+            fatalError("Error getting Model")
+            }
+        let request = VNCoreMLRequest(model: model) { (request, error) in
+            guard let results = request.results as? [VNClassificationObservation] else {
+                fatalError("Results not processed")
+        }
+            print(results)
+            if let resultImage = results.first {
+                let splitter = resultImage.identifier.components(separatedBy: ",")
+                self.Breed.text = splitter[0]
+            }
+
+        }
+        let handler = VNImageRequestHandler(ciImage: image)
+        do {
+            try handler.perform([request])
+        } catch {
+            print(error)
+        }
     }
     
 }

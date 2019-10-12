@@ -10,8 +10,6 @@ import UIKit
 import Lottie
 
 class ViewController: UIViewController {
-
-    let model = MobileNetV2()
     
     @IBOutlet var animationView: AnimationView!
     override func viewDidLoad() {
