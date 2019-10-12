@@ -10,6 +10,27 @@ import UIKit
 import Lottie
 class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
+    static var pugLock : Bool = true
+    static var corgiLock : Bool = true
+    static var goldenLock : Bool = true
+    static var huskyLock : Bool = true
+    static var germanLock : Bool = true
+    static var frenchLock : Bool = true
+    static var malteseLock : Bool = true
+    static var labradorLock : Bool = true
+    static var pomeranianLock : Bool = true
+    static var chihuahuaLock : Bool = true
+    static var poodleLock : Bool = true
+    static var chowchowLock : Bool = true
+    static var boxerLock : Bool = true
+    static var shihLock : Bool = true
+    static var pekLock : Bool = true
+    static var samLock : Bool = true
+    static var greatLock : Bool = true
+    static var shibaLock : Bool = true
+    static var dacLock : Bool = true
+    static var parsonLock : Bool = true
+    static var dalmatianLock : Bool = true
     
     @IBOutlet var animationView: AnimationView!
     func startAnimation() {
@@ -17,6 +38,7 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
         animationView.animation = animation
         animationView.loopMode = .loop
         animationView.play()
+    
     }
     
     let imagePicker = UIImagePickerController()

@@ -33,6 +33,28 @@
 		7E3A3B0723523C80006E12B8 /* samoyld.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3AF823523C80006E12B8 /* samoyld.png */; };
 		7E3A3B0823523C80006E12B8 /* greatdane.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3AF923523C80006E12B8 /* greatdane.png */; };
 		7E3A3B0A23523DBA006E12B8 /* DoggoDex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A3B0923523DBA006E12B8 /* DoggoDex.swift */; };
+		7E3A3B0C2352487D006E12B8 /* Hiddenpug.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B0B2352487C006E12B8 /* Hiddenpug.png */; };
+		7E3A3B22235250E5006E12B8 /* hiddenpoodle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B0D235250E0006E12B8 /* hiddenpoodle.png */; };
+		7E3A3B23235250E5006E12B8 /* hiddenshibainu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B0E235250E1006E12B8 /* hiddenshibainu.png */; };
+		7E3A3B24235250E5006E12B8 /* hiddenhusky.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B0F235250E1006E12B8 /* hiddenhusky.png */; };
+		7E3A3B25235250E5006E12B8 /* hiddenboxer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B10235250E1006E12B8 /* hiddenboxer.png */; };
+		7E3A3B26235250E5006E12B8 /* hiddenlabrador.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B11235250E1006E12B8 /* hiddenlabrador.png */; };
+		7E3A3B27235250E5006E12B8 /* hiddenfrenchbulldog.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B12235250E2006E12B8 /* hiddenfrenchbulldog.png */; };
+		7E3A3B28235250E5006E12B8 /* hiddendalmatian.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B13235250E2006E12B8 /* hiddendalmatian.png */; };
+		7E3A3B29235250E5006E12B8 /* hiddenchihuahua.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B14235250E2006E12B8 /* hiddenchihuahua.png */; };
+		7E3A3B2A235250E5006E12B8 /* hiddenchowchow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B15235250E2006E12B8 /* hiddenchowchow.png */; };
+		7E3A3B2B235250E5006E12B8 /* hiddenparsonrusellterrier.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B16235250E2006E12B8 /* hiddenparsonrusellterrier.png */; };
+		7E3A3B2C235250E5006E12B8 /* hiddenpekingese.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B17235250E3006E12B8 /* hiddenpekingese.png */; };
+		7E3A3B2D235250E5006E12B8 /* corgihidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B18235250E3006E12B8 /* corgihidden.png */; };
+		7E3A3B2E235250E5006E12B8 /* hiddenpomeranian.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B19235250E3006E12B8 /* hiddenpomeranian.png */; };
+		7E3A3B2F235250E5006E12B8 /* hiddensamoyld.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B1A235250E3006E12B8 /* hiddensamoyld.png */; };
+		7E3A3B30235250E5006E12B8 /* hiddenshihtzu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B1B235250E3006E12B8 /* hiddenshihtzu.png */; };
+		7E3A3B31235250E5006E12B8 /* maltesehidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B1C235250E4006E12B8 /* maltesehidden.png */; };
+		7E3A3B32235250E5006E12B8 /* pomeranian.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B1D235250E4006E12B8 /* pomeranian.png */; };
+		7E3A3B33235250E5006E12B8 /* hiddengreatdane.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B1E235250E4006E12B8 /* hiddengreatdane.png */; };
+		7E3A3B34235250E5006E12B8 /* hiddengermansheppard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B1F235250E4006E12B8 /* hiddengermansheppard.png */; };
+		7E3A3B35235250E5006E12B8 /* dacshundhidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B20235250E4006E12B8 /* dacshundhidden.png */; };
+		7E3A3B36235250E5006E12B8 /* maltese.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B21235250E5006E12B8 /* maltese.png */; };
 		7EDD5D7D2351BF9500B4010A /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7C2351BF9500B4010A /* dog.json */; };
 		7EDD5D7F2351C42700B4010A /* DoggoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7E2351C42700B4010A /* DoggoLogo.png */; };
 		7EDD5D812351C43E00B4010A /* 4888-dog-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */; };
@@ -97,6 +119,28 @@
 		7E3A3AF823523C80006E12B8 /* samoyld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samoyld.png; sourceTree = "<group>"; };
 		7E3A3AF923523C80006E12B8 /* greatdane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greatdane.png; sourceTree = "<group>"; };
 		7E3A3B0923523DBA006E12B8 /* DoggoDex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggoDex.swift; sourceTree = "<group>"; };
+		7E3A3B0B2352487C006E12B8 /* Hiddenpug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hiddenpug.png; path = ../../../../../Downloads/Hiddenpug.png; sourceTree = "<group>"; };
+		7E3A3B0D235250E0006E12B8 /* hiddenpoodle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenpoodle.png; sourceTree = "<group>"; };
+		7E3A3B0E235250E1006E12B8 /* hiddenshibainu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenshibainu.png; sourceTree = "<group>"; };
+		7E3A3B0F235250E1006E12B8 /* hiddenhusky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenhusky.png; sourceTree = "<group>"; };
+		7E3A3B10235250E1006E12B8 /* hiddenboxer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenboxer.png; sourceTree = "<group>"; };
+		7E3A3B11235250E1006E12B8 /* hiddenlabrador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenlabrador.png; sourceTree = "<group>"; };
+		7E3A3B12235250E2006E12B8 /* hiddenfrenchbulldog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenfrenchbulldog.png; sourceTree = "<group>"; };
+		7E3A3B13235250E2006E12B8 /* hiddendalmatian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddendalmatian.png; sourceTree = "<group>"; };
+		7E3A3B14235250E2006E12B8 /* hiddenchihuahua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenchihuahua.png; sourceTree = "<group>"; };
+		7E3A3B15235250E2006E12B8 /* hiddenchowchow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenchowchow.png; sourceTree = "<group>"; };
+		7E3A3B16235250E2006E12B8 /* hiddenparsonrusellterrier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenparsonrusellterrier.png; sourceTree = "<group>"; };
+		7E3A3B17235250E3006E12B8 /* hiddenpekingese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenpekingese.png; sourceTree = "<group>"; };
+		7E3A3B18235250E3006E12B8 /* corgihidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corgihidden.png; sourceTree = "<group>"; };
+		7E3A3B19235250E3006E12B8 /* hiddenpomeranian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenpomeranian.png; sourceTree = "<group>"; };
+		7E3A3B1A235250E3006E12B8 /* hiddensamoyld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddensamoyld.png; sourceTree = "<group>"; };
+		7E3A3B1B235250E3006E12B8 /* hiddenshihtzu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenshihtzu.png; sourceTree = "<group>"; };
+		7E3A3B1C235250E4006E12B8 /* maltesehidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maltesehidden.png; sourceTree = "<group>"; };
+		7E3A3B1D235250E4006E12B8 /* pomeranian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pomeranian.png; sourceTree = "<group>"; };
+		7E3A3B1E235250E4006E12B8 /* hiddengreatdane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddengreatdane.png; sourceTree = "<group>"; };
+		7E3A3B1F235250E4006E12B8 /* hiddengermansheppard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddengermansheppard.png; sourceTree = "<group>"; };
+		7E3A3B20235250E4006E12B8 /* dacshundhidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dacshundhidden.png; sourceTree = "<group>"; };
+		7E3A3B21235250E5006E12B8 /* maltese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maltese.png; sourceTree = "<group>"; };
 		7EDD5D7C2351BF9500B4010A /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		7EDD5D7E2351C42700B4010A /* DoggoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoggoLogo.png; sourceTree = "<group>"; };
 		7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4888-dog-icon.json"; sourceTree = "<group>"; };
@@ -200,6 +244,28 @@
 				7E3A3B0923523DBA006E12B8 /* DoggoDex.swift */,
 				7E2303F62351D936006FE42B /* Scanner.swift */,
 				7EEAFBDF2351BCE3005F31E5 /* Assets.xcassets */,
+				7E3A3B18235250E3006E12B8 /* corgihidden.png */,
+				7E3A3B20235250E4006E12B8 /* dacshundhidden.png */,
+				7E3A3B10235250E1006E12B8 /* hiddenboxer.png */,
+				7E3A3B14235250E2006E12B8 /* hiddenchihuahua.png */,
+				7E3A3B15235250E2006E12B8 /* hiddenchowchow.png */,
+				7E3A3B13235250E2006E12B8 /* hiddendalmatian.png */,
+				7E3A3B12235250E2006E12B8 /* hiddenfrenchbulldog.png */,
+				7E3A3B1F235250E4006E12B8 /* hiddengermansheppard.png */,
+				7E3A3B1E235250E4006E12B8 /* hiddengreatdane.png */,
+				7E3A3B0F235250E1006E12B8 /* hiddenhusky.png */,
+				7E3A3B11235250E1006E12B8 /* hiddenlabrador.png */,
+				7E3A3B16235250E2006E12B8 /* hiddenparsonrusellterrier.png */,
+				7E3A3B17235250E3006E12B8 /* hiddenpekingese.png */,
+				7E3A3B19235250E3006E12B8 /* hiddenpomeranian.png */,
+				7E3A3B0D235250E0006E12B8 /* hiddenpoodle.png */,
+				7E3A3B1A235250E3006E12B8 /* hiddensamoyld.png */,
+				7E3A3B0E235250E1006E12B8 /* hiddenshibainu.png */,
+				7E3A3B1B235250E3006E12B8 /* hiddenshihtzu.png */,
+				7E3A3B21235250E5006E12B8 /* maltese.png */,
+				7E3A3B1C235250E4006E12B8 /* maltesehidden.png */,
+				7E3A3B1D235250E4006E12B8 /* pomeranian.png */,
+				7E3A3B0B2352487C006E12B8 /* Hiddenpug.png */,
 				7E3A3AF723523C80006E12B8 /* boxer.png */,
 				7E3A3AF423523C7F006E12B8 /* chihuahua.png */,
 				7E3A3AF323523C7F006E12B8 /* chowchow.png */,
@@ -360,33 +426,55 @@
 				7E3A3AE823522EFC006E12B8 /* beaglevatar.png in Resources */,
 				7EDD5D912351D55500B4010A /* pokedex (1).png in Resources */,
 				7EEAFBE32351BCE3005F31E5 /* LaunchScreen.storyboard in Resources */,
+				7E3A3B32235250E5006E12B8 /* pomeranian.png in Resources */,
 				7E3A3B0323523C80006E12B8 /* chihuahua.png in Resources */,
 				7EDD5D7F2351C42700B4010A /* DoggoLogo.png in Resources */,
+				7E3A3B2A235250E5006E12B8 /* hiddenchowchow.png in Resources */,
+				7E3A3B2F235250E5006E12B8 /* hiddensamoyld.png in Resources */,
 				7E3A3AE223522EEB006E12B8 /* goldretrieveravatar.png in Resources */,
 				7E3A3B0023523C80006E12B8 /* ParsonRussellTerrier.png in Resources */,
 				7E3A3ACA2351F78D006E12B8 /* 8414-lottie-doggie (1).json in Resources */,
 				7EEAFBE02351BCE3005F31E5 /* Assets.xcassets in Resources */,
 				7E3A3AE623522EF8006E12B8 /* frenchieavatar.png in Resources */,
+				7E3A3B36235250E5006E12B8 /* maltese.png in Resources */,
+				7E3A3B33235250E5006E12B8 /* hiddengreatdane.png in Resources */,
+				7E3A3B31235250E5006E12B8 /* maltesehidden.png in Resources */,
+				7E3A3B23235250E5006E12B8 /* hiddenshibainu.png in Resources */,
+				7E3A3B29235250E5006E12B8 /* hiddenchihuahua.png in Resources */,
+				7E3A3B2C235250E5006E12B8 /* hiddenpekingese.png in Resources */,
 				7E3A3B0523523C80006E12B8 /* LabradorRetriever.png in Resources */,
 				7E3A3B0823523C80006E12B8 /* greatdane.png in Resources */,
+				7E3A3B22235250E5006E12B8 /* hiddenpoodle.png in Resources */,
+				7E3A3B2E235250E5006E12B8 /* hiddenpomeranian.png in Resources */,
+				7E3A3B24235250E5006E12B8 /* hiddenhusky.png in Resources */,
+				7E3A3B27235250E5006E12B8 /* hiddenfrenchbulldog.png in Resources */,
 				7E3A3ADE23522EE2006E12B8 /* corgiavatar.png in Resources */,
 				7E3A3AFA23523C80006E12B8 /* dalmatian.png in Resources */,
+				7E3A3B2B235250E5006E12B8 /* hiddenparsonrusellterrier.png in Resources */,
+				7E3A3B25235250E5006E12B8 /* hiddenboxer.png in Resources */,
+				7E3A3B34235250E5006E12B8 /* hiddengermansheppard.png in Resources */,
 				7E3A3AEA23522F01006E12B8 /* malteseavatar.png in Resources */,
 				7E3A3ADC23522C4D006E12B8 /* pugavatar.png in Resources */,
 				7E3A3AFB23523C80006E12B8 /* shitzhu.png in Resources */,
 				7E3A3AFC23523C80006E12B8 /* pomerarion.png in Resources */,
+				7E3A3B26235250E5006E12B8 /* hiddenlabrador.png in Resources */,
 				7E3A3B0223523C80006E12B8 /* chowchow.png in Resources */,
+				7E3A3B30235250E5006E12B8 /* hiddenshihtzu.png in Resources */,
 				7E3A3B0423523C80006E12B8 /* dacshund.png in Resources */,
 				7EDD5D872351D15200B4010A /* pokedex.png in Resources */,
 				7E3A3B0623523C80006E12B8 /* boxer.png in Resources */,
+				7E3A3B35235250E5006E12B8 /* dacshundhidden.png in Resources */,
 				7EEAFBDB2351BCE3005F31E5 /* Main.storyboard in Resources */,
 				7E3A3AE023522EE6006E12B8 /* huskyavatar.png in Resources */,
 				7E3A3AFD23523C80006E12B8 /* pekingese.png in Resources */,
 				7EDD5D7D2351BF9500B4010A /* dog.json in Resources */,
 				7E3A3AFF23523C80006E12B8 /* shibainu.png in Resources */,
 				7E3A3B0123523C80006E12B8 /* poodle.png in Resources */,
+				7E3A3B2D235250E5006E12B8 /* corgihidden.png in Resources */,
 				7E3A3AFE23523C80006E12B8 /* Great-Dane-On-White-01.jpg in Resources */,
 				7E3A3AE423522EEF006E12B8 /* germanshepardavatar.png in Resources */,
+				7E3A3B0C2352487D006E12B8 /* Hiddenpug.png in Resources */,
+				7E3A3B28235250E5006E12B8 /* hiddendalmatian.png in Resources */,
 				7EDD5D812351C43E00B4010A /* 4888-dog-icon.json in Resources */,
 				7E3A3B0723523C80006E12B8 /* samoyld.png in Resources */,
 			);

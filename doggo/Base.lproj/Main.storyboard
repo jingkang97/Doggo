@@ -54,7 +54,7 @@
         <!--DoggoDex-->
         <scene sceneID="UaQ-Ge-FZg">
             <objects>
-                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="GCc-qd-Pih" sceneMemberID="viewController">
+                <viewController title="DoggoDex" wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="GCc-qd-Pih" customClass="DoggoDex" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="znu-2P-xOs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -244,6 +244,8 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="pugavatar.png"/>
                                                 <connections>
+                                                    <action selector="Pug" destination="QJd-KW-wgd" eventType="touchUpInside" id="hxT-Oh-TxG"/>
+                                                    <action selector="Pug:" destination="QJd-KW-wgd" eventType="touchUpInside" id="wIq-AR-xgQ"/>
                                                     <action selector="pug:" destination="QJd-KW-wgd" eventType="touchUpInside" id="znc-01-zmp"/>
                                                     <segue destination="MCk-3z-0AE" kind="presentation" id="pfY-W9-HfK"/>
                                                 </connections>

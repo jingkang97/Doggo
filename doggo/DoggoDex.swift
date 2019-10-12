@@ -10,8 +10,11 @@ import UIKit
 
 class DoggoDex :UIViewController {
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     
