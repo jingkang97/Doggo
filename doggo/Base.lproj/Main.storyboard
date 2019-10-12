@@ -56,18 +56,150 @@
             <objects>
                 <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="GCc-qd-Pih" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="znu-2P-xOs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twE-xh-zak">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="twE-xh-zak">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1363"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ih-p4-hLo">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ih-p4-hLo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1363"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vD7-Ge-hVy">
+                                                <rect key="frame" x="87" y="1226.5" width="240" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Uo-Jc-rHb">
+                                                <rect key="frame" x="87" y="461.5" width="240" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Srm-RZ-8VU">
+                                                <rect key="frame" x="87" y="50" width="240" height="128"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb0-cx-xpD">
+                                                <rect key="frame" x="15" y="170" width="95" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="huskyavatar.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0O-MD-giT">
+                                                <rect key="frame" x="138" y="170" width="95" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="germanshepardavatar.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c08-jd-aov">
+                                                <rect key="frame" x="263" y="170" width="96" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="frenchieavatar.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlc-qC-oYR">
+                                                <rect key="frame" x="15" y="304" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="malteseavatar.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVq-qJ-put">
+                                                <rect key="frame" x="138" y="304" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="LabradorRetriever.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avP-Fw-1Xg">
+                                                <rect key="frame" x="263" y="304" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="pomerarion.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNU-7O-0Nb">
+                                                <rect key="frame" x="15" y="440" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="chihuahua.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huy-Ju-njM">
+                                                <rect key="frame" x="15" y="574" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="boxer.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IV-pd-2mC">
+                                                <rect key="frame" x="138" y="574" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="shitzhu.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6D-Yi-rcr">
+                                                <rect key="frame" x="263" y="574" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="pekingese.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibj-1v-meG">
+                                                <rect key="frame" x="15" y="711" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="samoyld.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCO-Dn-nYl">
+                                                <rect key="frame" x="138" y="711" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="greatdane.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9Q-Hz-tFC">
+                                                <rect key="frame" x="263" y="711" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="shibainu.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lo7-Yg-rpU">
+                                                <rect key="frame" x="15" y="854" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="dacshund.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIY-Ke-zmW">
+                                                <rect key="frame" x="138" y="854" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="ParsonRussellTerrier.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iz8-W0-2Sh">
+                                                <rect key="frame" x="263" y="854" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="dalmatian.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3s-gt-3At">
+                                                <rect key="frame" x="138" y="440" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="poodle.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfZ-1e-vMq">
+                                                <rect key="frame" x="263" y="440" width="95" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="chowchow.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3IR-DW-hoX">
+                                                <rect key="frame" x="138" y="35" width="95" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="corgiavatar.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUR-vX-pI7">
+                                                <rect key="frame" x="263" y="35" width="96" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="goldretrieveravatar.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4Q-CL-k1U">
+                                                <rect key="frame" x="15" y="35" width="95" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="pugavatar.png"/>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Srm-RZ-8VU" firstAttribute="centerX" secondItem="9Ih-p4-hLo" secondAttribute="centerX" id="2WY-RK-I0r"/>
+                                            <constraint firstItem="3Uo-Jc-rHb" firstAttribute="centerX" secondItem="9Ih-p4-hLo" secondAttribute="centerX" id="Css-8h-IBQ"/>
+                                            <constraint firstItem="3Uo-Jc-rHb" firstAttribute="top" secondItem="Srm-RZ-8VU" secondAttribute="bottom" constant="298" id="ERE-N9-4Wy"/>
+                                            <constraint firstItem="Srm-RZ-8VU" firstAttribute="top" secondItem="9Ih-p4-hLo" secondAttribute="top" constant="33" id="J6q-Zr-Xls"/>
+                                            <constraint firstAttribute="bottom" secondItem="vD7-Ge-hVy" secondAttribute="bottom" constant="8.5" id="Tq3-te-xW7"/>
+                                            <constraint firstItem="vD7-Ge-hVy" firstAttribute="centerX" secondItem="9Ih-p4-hLo" secondAttribute="centerX" id="X0z-yX-Ehu"/>
+                                            <constraint firstItem="vD7-Ge-hVy" firstAttribute="top" secondItem="3Uo-Jc-rHb" secondAttribute="bottom" constant="635" id="c8F-S2-450"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="9Ih-p4-hLo" firstAttribute="height" secondItem="twE-xh-zak" secondAttribute="height" priority="250" id="0fs-lw-BjE"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Ih-p4-hLo" secondAttribute="trailing" id="XFI-KR-GTq"/>
+                                    <constraint firstAttribute="bottom" secondItem="9Ih-p4-hLo" secondAttribute="bottom" id="iaL-xR-Y5w"/>
+                                    <constraint firstItem="9Ih-p4-hLo" firstAttribute="top" secondItem="twE-xh-zak" secondAttribute="top" id="iwU-zU-M74"/>
+                                    <constraint firstItem="9Ih-p4-hLo" firstAttribute="width" secondItem="twE-xh-zak" secondAttribute="width" id="vjI-nn-XhM"/>
+                                    <constraint firstItem="9Ih-p4-hLo" firstAttribute="leading" secondItem="twE-xh-zak" secondAttribute="leading" id="ygD-de-B69"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="7R9-3N-pnl"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Sbc-IO-ylu"/>
                             </scrollView>
@@ -82,6 +214,7 @@
                         <viewLayoutGuide key="safeArea" id="j2G-3h-LmJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="DoggoDex" image="pokedex (1)" id="OUk-SJ-oVU"/>
+                    <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rft-4v-5Qq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -210,10 +343,31 @@
     </scenes>
     <resources>
         <image name="DoggoLogo.png" width="6016" height="1820"/>
+        <image name="LabradorRetriever.png" width="197" height="198"/>
+        <image name="ParsonRussellTerrier.png" width="197" height="198"/>
+        <image name="boxer.png" width="197" height="198"/>
         <image name="camera" catalog="system" width="64" height="48"/>
         <image name="camera.fill" catalog="system" width="64" height="48"/>
+        <image name="chihuahua.png" width="197" height="198"/>
+        <image name="chowchow.png" width="197" height="198"/>
+        <image name="corgiavatar.png" width="197" height="198"/>
+        <image name="dacshund.png" width="197" height="198"/>
+        <image name="dalmatian.png" width="197" height="198"/>
+        <image name="frenchieavatar.png" width="197" height="198"/>
+        <image name="germanshepardavatar.png" width="197" height="198"/>
+        <image name="goldretrieveravatar.png" width="197" height="198"/>
+        <image name="greatdane.png" width="197" height="198"/>
+        <image name="huskyavatar.png" width="197" height="198"/>
+        <image name="malteseavatar.png" width="197" height="198"/>
+        <image name="pekingese.png" width="197" height="198"/>
         <image name="person" catalog="system" width="64" height="60"/>
         <image name="photo.fill" catalog="system" width="64" height="48"/>
         <image name="pokedex (1)" width="16" height="16"/>
+        <image name="pomerarion.png" width="197" height="198"/>
+        <image name="poodle.png" width="197" height="198"/>
+        <image name="pugavatar.png" width="197" height="198"/>
+        <image name="samoyld.png" width="197" height="198"/>
+        <image name="shibainu.png" width="197" height="198"/>
+        <image name="shitzhu.png" width="197" height="198"/>
     </resources>
 </document>
