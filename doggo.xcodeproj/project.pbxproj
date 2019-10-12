@@ -32,6 +32,7 @@
 		7E3A3B0623523C80006E12B8 /* boxer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3AF723523C80006E12B8 /* boxer.png */; };
 		7E3A3B0723523C80006E12B8 /* samoyld.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3AF823523C80006E12B8 /* samoyld.png */; };
 		7E3A3B0823523C80006E12B8 /* greatdane.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3AF923523C80006E12B8 /* greatdane.png */; };
+		7E3A3B0A23523DBA006E12B8 /* DoggoDex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A3B0923523DBA006E12B8 /* DoggoDex.swift */; };
 		7EDD5D7D2351BF9500B4010A /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7C2351BF9500B4010A /* dog.json */; };
 		7EDD5D7F2351C42700B4010A /* DoggoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7E2351C42700B4010A /* DoggoLogo.png */; };
 		7EDD5D812351C43E00B4010A /* 4888-dog-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */; };
@@ -95,6 +96,7 @@
 		7E3A3AF723523C80006E12B8 /* boxer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxer.png; sourceTree = "<group>"; };
 		7E3A3AF823523C80006E12B8 /* samoyld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samoyld.png; sourceTree = "<group>"; };
 		7E3A3AF923523C80006E12B8 /* greatdane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greatdane.png; sourceTree = "<group>"; };
+		7E3A3B0923523DBA006E12B8 /* DoggoDex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggoDex.swift; sourceTree = "<group>"; };
 		7EDD5D7C2351BF9500B4010A /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		7EDD5D7E2351C42700B4010A /* DoggoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoggoLogo.png; sourceTree = "<group>"; };
 		7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4888-dog-icon.json"; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				7EEAFBD52351BCE3005F31E5 /* SceneDelegate.swift */,
 				7EEAFBD72351BCE3005F31E5 /* ViewController.swift */,
 				7EEAFBD92351BCE3005F31E5 /* Main.storyboard */,
+				7E3A3B0923523DBA006E12B8 /* DoggoDex.swift */,
 				7E2303F62351D936006FE42B /* Scanner.swift */,
 				7EEAFBDF2351BCE3005F31E5 /* Assets.xcassets */,
 				7E3A3AF723523C80006E12B8 /* boxer.png */,
@@ -455,6 +458,7 @@
 				7EEAFBD82351BCE3005F31E5 /* ViewController.swift in Sources */,
 				7EEAFBD42351BCE3005F31E5 /* AppDelegate.swift in Sources */,
 				7EEAFBDE2351BCE3005F31E5 /* doggo.xcdatamodeld in Sources */,
+				7E3A3B0A23523DBA006E12B8 /* DoggoDex.swift in Sources */,
 				7EDD5D832351C77100B4010A /* MobileNetV2.mlmodel in Sources */,
 				7E2303F72351D936006FE42B /* Scanner.swift in Sources */,
 				7EEAFBD62351BCE3005F31E5 /* SceneDelegate.swift in Sources */,
