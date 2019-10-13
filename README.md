@@ -4,7 +4,7 @@ Are you a dog lover? Have you ever wondered what is the species that is lying th
 
 Doggo lets you take a snap shot of a dog and tells you what breed it is. You get to find out more about the breed after you took a snapshot of it and unlock that breed!
 
-![GUI](https://github.com/jingkang97/Doggo/GUIImages/DoggoGUI.png)
+![GUI](https://github.com/jingkang97/Doggo/blob/master/GUIImages/DoggoGUI.png)
 
 ## Getting Started
 
