@@ -19,6 +19,13 @@ Clone this github repo into your desktop.
 
 Connect to an iOS device and run it on the latest version of xCode (11.0) 
 
+<<<<<<< HEAD
+=======
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+>>>>>>> 782dc59817d012ac4a97da346a0d8c147ad9478e
 ## Built With
 
 * Swift
