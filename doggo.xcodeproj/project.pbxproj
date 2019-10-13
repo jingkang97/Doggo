@@ -58,6 +58,7 @@
 		7E3A3B38235256DC006E12B8 /* 5365-innu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A3B37235256DB006E12B8 /* 5365-innu.json */; };
 		7E3A3B3A235256F9006E12B8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A3B39235256F9006E12B8 /* Profile.swift */; };
 		7E734CA82352629500F418F9 /* How-Long-Do-Pugs-Live-long.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E734CA72352629500F418F9 /* How-Long-Do-Pugs-Live-long.jpg */; };
+		7E734CAA2352C5CF00F418F9 /* doggoml 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7E734CA92352C5CF00F418F9 /* doggoml 1.mlmodel */; };
 		7EDD5D7D2351BF9500B4010A /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7C2351BF9500B4010A /* dog.json */; };
 		7EDD5D7F2351C42700B4010A /* DoggoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D7E2351C42700B4010A /* DoggoLogo.png */; };
 		7EDD5D812351C43E00B4010A /* 4888-dog-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */; };
@@ -147,6 +148,7 @@
 		7E3A3B37235256DB006E12B8 /* 5365-innu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5365-innu.json"; sourceTree = "<group>"; };
 		7E3A3B39235256F9006E12B8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7E734CA72352629500F418F9 /* How-Long-Do-Pugs-Live-long.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "How-Long-Do-Pugs-Live-long.jpg"; sourceTree = "<group>"; };
+		7E734CA92352C5CF00F418F9 /* doggoml 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "doggoml 1.mlmodel"; sourceTree = "<group>"; };
 		7EDD5D7C2351BF9500B4010A /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		7EDD5D7E2351C42700B4010A /* DoggoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoggoLogo.png; sourceTree = "<group>"; };
 		7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4888-dog-icon.json"; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 		7EEAFBD22351BCE3005F31E5 /* doggo */ = {
 			isa = PBXGroup;
 			children = (
+				7E734CA92352C5CF00F418F9 /* doggoml 1.mlmodel */,
 				7EDD5D822351C77100B4010A /* MobileNetV2.mlmodel */,
 				7E3A3AC92351F78C006E12B8 /* 8414-lottie-doggie (1).json */,
 				7EDD5D802351C43E00B4010A /* 4888-dog-icon.json */,
@@ -562,6 +565,7 @@
 				7EDD5D832351C77100B4010A /* MobileNetV2.mlmodel in Sources */,
 				7E2303F72351D936006FE42B /* Scanner.swift in Sources */,
 				7EEAFBD62351BCE3005F31E5 /* SceneDelegate.swift in Sources */,
+				7E734CAA2352C5CF00F418F9 /* doggoml 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

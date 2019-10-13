@@ -35,8 +35,8 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     static var parsonLock : Bool = true
     static var dalmatianLock : Bool = true
     
-    let model = MobileNetV2()
-    
+    //let model = MobileNetV2()
+    let model = doggoml_1()
     @IBOutlet weak var Breed: UILabel!
     
     
@@ -90,7 +90,7 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     }
     
     func scanImage(image: CIImage) {
-        guard let model = try? VNCoreMLModel(for: MobileNetV2().model) else {
+        guard let model = try? VNCoreMLModel(for: model.model) else {
             fatalError("Error getting Model")
             }
         let request = VNCoreMLRequest(model: model) { (request, error) in
