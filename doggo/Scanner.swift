@@ -36,7 +36,7 @@ class Scanner :UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     static var dalmatianLock : Bool = true
     
     //let model = MobileNetV2()
-    let model = doggoml_1()
+    let model = MobileNetV2()
     @IBOutlet weak var Breed: UILabel!
     
     
